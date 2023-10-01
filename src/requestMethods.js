@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "https://abhi-e-commerce.onrender/api";
+const BASE_URL = "https://abhi-e-commerce.onrender.com/api";
 
 const TOKEN = localStorage.getItem("persist:root")
     ? JSON.parse(JSON.parse(localStorage.getItem("persist:root")).user)
