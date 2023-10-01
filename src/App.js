@@ -17,7 +17,7 @@ import Orders from "./pages/Orders";
 function App() {
     const user = useSelector((state) => state.user.currentUser);
     return (
-        <Router basename={process.env.REACT_APP_PUBLIC_URL}>
+        <Router>
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/products/:category?" element={<ProductList />} />
